@@ -3,7 +3,7 @@
 A simple tcp proxy which provides a hex dump of all traffic. Implemented using boost asio
 
 Usage:
-proxy <remote host> <remote host> <local port>
+proxy remote_host remote_host local_port
 
 Sample output using echo client/server provided with boost asio:
 ```
